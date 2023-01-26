@@ -1,1 +1,37 @@
 
+$Klarna-font-path: "../Fonts"
+$primary-color:#006B38FF
+$display-color:#101820FF
+$button-color: #e7d6d6
+$button-height: 30px
+$button-width:100px!important
+$border-radius-50px: 50px
+$breakpoint-laptop: 991.98px
+@font-face
+    src: url("#{$Klarna-font-path}/KlarnaText-Bold.woff") format("woff")
+    font-family: "Klarna"
+body
+    color: $primary-color
+    font-family: "Klarna"
+.calculator
+    background-color:$display-color
+    height:240px
+    border-radius: 25px
+.display
+    background-color: $primary-color
+    height: 75px
+    margin-top: 15px
+    border-radius: 50px
+.btn-font-size
+    font-size: 1.2rem
+.btn-style
+    background-color: $primary-color
+    border-radius: $border-radius-50px
+    color: white
+    font-weight: 700
+.font-white
+    color: white
+    font-size: 2rem
+@media (min-width: $breakpoint-laptop)
+    .calculator
+        height: 300px
