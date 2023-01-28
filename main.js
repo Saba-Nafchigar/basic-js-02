@@ -5,4 +5,4 @@
  else{
     console.log("not deleted!");
  }
- console.log(typeof check);
+ console.log(typeof check); //Boolean 
